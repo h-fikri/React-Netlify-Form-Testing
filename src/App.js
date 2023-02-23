@@ -4,14 +4,15 @@ function App() {
   return (
     <div>
       <form
-        name="contact v2"
+        name="contact v3"
         method="post"
         data-netlify="true"
         onSubmit="submit"
         netlify-honeypot="bot-field"
         netlify
+        type="hidden"
       >
-        <input type="hidden" name="form-name" value="contact v2" />
+        <input type="hidden" name="form-name" value="contact v3" />
 
         <div hidden>
           <input name="bot-field" />
